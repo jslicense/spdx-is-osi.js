@@ -5,16 +5,16 @@ var isOSIApproved = require('spdx-is-osi')
 // The MIT License
 // Has an SPDX identifier
 // An OSI-approved license
-assert(isOSIApproved('MIT'))
+assert.strictEqual(isOSIApproved('MIT'), true)
 
 // Zope Public License 2.1
 // Has an SPDX identifier
 // Not an OSI-approved license
-assert(!isOSIApproved('ZPL-2.1'))
+assert.strictEqual(isOSIApproved('ZPL-2.1'), false)
 
 // Dual-licensing under MIT and Entessa
-assert(isOSIApproved('(MIT OR ZPL-2.1)'))
+assert.strictEqual(isOSIApproved('(MIT OR ZPL-2.1)'), true)
 
 // Double-licensing under MIT and Entessa
-assert(!isOSIApproved('(MIT AND ZPL-2.1)'))
+assert.strictEqual(isOSIApproved('(MIT AND ZPL-2.1)'), false)
 ```
