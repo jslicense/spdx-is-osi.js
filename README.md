@@ -12,9 +12,9 @@ assert.strictEqual(isOSIApproved('MIT'), true)
 // Not an OSI-approved license
 assert.strictEqual(isOSIApproved('ZPL-2.1'), false)
 
-// Dual-licensing under MIT and Entessa
+// Dual-licensing under MIT and Zope 2.1
 assert.strictEqual(isOSIApproved('(MIT OR ZPL-2.1)'), true)
 
-// Double-licensing under MIT and Entessa
+// Double-licensing under MIT and Zope 2.1
 assert.strictEqual(isOSIApproved('(MIT AND ZPL-2.1)'), false)
 ```
