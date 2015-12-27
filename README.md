@@ -14,4 +14,7 @@ assert(!isOSIApproved('Entessa'))
 
 // Dual-licensing under MIT and Entessa
 assert(isOSIApproved('(MIT OR Entessa)'))
+
+// Double-licensing under MIT and Entessa
+assert(!isOSIApproved('(MIT AND Entessa)'))
 ```
