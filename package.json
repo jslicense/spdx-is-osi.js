@@ -1,6 +1,6 @@
 {
   "name": "spdx-is-osi",
-  "description": "test whether an SPDX expression is OSI-approved",
+  "description": "Does an SPDX expression for license terms offer an OSI-approved choice?",
   "version": "0.1.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
