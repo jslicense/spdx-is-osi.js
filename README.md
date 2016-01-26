@@ -17,4 +17,7 @@ assert.strictEqual(isOSIApproved('(MIT OR ZPL-2.1)'), true)
 
 // Double-licensing under MIT and Zope 2.1
 assert.strictEqual(isOSIApproved('(MIT AND ZPL-2.1)'), false)
+
+// Licensing under current and subsequent versions.
+assert.strictEqual(isOSIApproved('(GPL-2.0+)'), true)
 ```
