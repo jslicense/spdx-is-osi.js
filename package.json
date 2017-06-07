@@ -9,7 +9,9 @@
   },
   "devDependencies": {
     "defence-cli": "^1.0.5",
-    "replace-require-self": "^1.0.1"
+    "replace-require-self": "^1.0.1",
+    "standard": "^10.0.2",
+    "standard-markdown": "^2.3.0"
   },
   "files": [
     "index.js"
@@ -17,6 +19,7 @@
   "license": "MIT",
   "repository": "jslicense/spdx-is-osi.js",
   "scripts": {
-    "test": "defence README.md | replace-require-self | node"
+    "test": "defence README.md | replace-require-self | node",
+    "lint": "standard && standard-markdown"
   }
 }

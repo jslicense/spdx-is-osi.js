@@ -5,5 +5,6 @@ var satisfies = require('spdx-satisfies')
 
 var approved = osi.join(' OR ')
 
-function spdxIsOSI(expression) {
-  return satisfies(expression, approved) }
+function spdxIsOSI (expression) {
+  return satisfies(expression, approved)
+}
