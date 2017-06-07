@@ -15,7 +15,7 @@
     "index.js"
   ],
   "license": "MIT",
-  "repository": "kemitchell/spdx-is-osi.js",
+  "repository": "jslicense/spdx-is-osi.js",
   "scripts": {
     "test": "defence README.md | replace-require-self | node"
   }
