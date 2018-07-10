@@ -1,3 +1,11 @@
+[![Travis CI](https://img.shields.io/travis/jslicense/spdx-is-osi.js/master.svg)](https://travis-ci.org/jslicense/spdx-is-osi.js)
+[![npm](https://img.shields.io/npm/v/spdx-is-osi.svg)](https://www.npmjs.com/package/spdx-is-osi)
+[![downloads](https://img.shields.io/npm/dm/spdx-is-osi.svg)](https://www.npmjs.com/package/spdx-is-osi)
+[![code style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+This package will test whether a SPDX expression is OSI approved.
+
+
 ```javascript
 var assert = require('assert')
 var isOSIApproved = require('spdx-is-osi')
