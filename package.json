@@ -11,7 +11,7 @@
     "defence-cli": "^2.0.1",
     "replace-require-self": "^1.0.1",
     "standard": "^11.0.1",
-    "standard-markdown": "^2.3.0"
+    "standard-markdown": "^4.0.2"
   },
   "files": [
     "index.js"
